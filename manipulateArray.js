@@ -50,3 +50,9 @@ for (let parentItem of parentItems) {
 }
 
 console.log("RESULT:: ", result.length, JSON.stringify(result))
+
+/*
+OUTPUT
+======
+RESULT::  2 [{"myId":"child-b-1","parentOwnFields":{},"childIds":[{"childId":"child-a-1","childName":"child-a-1"},{"childId":"child-b-1","childName":"child-b-1"}],"childAFields":{},"childBFields":{}},{"myId":"child-b-2","parentOwnFields":{},"childIds":[{"childId":"child-a-2","childName":"child-a-2"},{"childId":"child-b-2","childName":"child-b-2"}],"childAFields":{},"childBFields":{}}]
+*/
